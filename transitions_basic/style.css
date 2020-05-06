@@ -5,11 +5,13 @@ button {
     color: white;
     border: none;
     background-color: purple;
-    transition-property: background-color;
-    transition-duration: 3s;
+    transition-property: background-color color width;
+    transition-duration: 2s;
     transition-delay: 2s;
 }
 
 button:hover{
     background-color: royalblue;
+    color:black;
+    width: 600px;
 }

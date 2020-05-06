@@ -6,7 +6,8 @@ button {
     border: none;
     background-color: purple;
     transition-property: background-color;
-    transition-duration: 3000ms;
+    transition-duration: 3s;
+    transition-delay: 2s;
 }
 
 button:hover{
